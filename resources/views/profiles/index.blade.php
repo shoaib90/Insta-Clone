@@ -10,7 +10,8 @@
            <div class="d-flex justify-content-between align-items-baseline"><h1>{{ $user->Username }}</h1>
            <a href="/p/create" >Add New Post</a>
            </div> {{--Thus we are passing in data into our views through controller--}}
-           <div class="d-flex">
+           <a href="/profile/{{$user->id}}/edit">Edit Profile</a>
+            <div class="d-flex">
                <div class="pr-5"><strong>{{$user->posts->count()}}</strong> posts</div>
                <div class="pr-5"><strong>195</strong> followers</div>
                <div class="pr-5"><strong>280</strong> following</div>

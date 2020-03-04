@@ -21,3 +21,5 @@ Route::get('/p/create', 'PostsController@create'); #Reference to these create an
 Route::post('/p', 'PostsController@store');
 Route::get('/p/{post}', 'PostsController@show');
 Route::get('/profile/{user}', 'ProfileController@index')->name('profile.show'); //using restful controllers.(profile.show)
+Route::get('/profile/{user}/edit', 'ProfileController@edit')->name('profile.edit'); //these names we are not using right now.
+Route::patch('/profile/{user}', 'ProfileController@update')->name('profile.update'); //these names we are not using right now.
