@@ -1,3 +1,6 @@
+# This is a basic version of instagram, which lets you create your profile, upload post, show the feed, delete your post and can follow or unfollow other people. But right now it doesn't have the search box, thus you manually need to change url to see other profiles ex:- base_url/profile/1 or 2 .... based on number of profiles you have made.
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
